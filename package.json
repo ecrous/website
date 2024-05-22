@@ -4,6 +4,7 @@
     "description": "Rewritten version of website",
     "scripts": {
       "dev": "pnpm run css --watch && trunk serve",
+      "nwt": "npm ping",
       "css": "tailwindcss -i ./style/input.css -o ./style/output.css",
       "rnstl": "./vercel/install.sh",
       "build": "pnpm run css && ./vercel/build.sh"
