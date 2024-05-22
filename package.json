@@ -1,0 +1,16 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "description": "Rewritten version of website",
+    "scripts": {
+      "dev": "pnpm run css --watch && trunk serve",
+      "css": "tailwindcss -i ./style/input.css -o ./style/output.css",
+      "rnstl": "./vercel/install.sh",
+      "build": "pnpm run css && ./vercel/build.sh"
+    },
+    "author": "Sokhibjon Orzikulov <sakhib@orzklv.uz>",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "tailwindcss": "^3.3.5"
+    }
+  }
