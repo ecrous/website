@@ -14,7 +14,7 @@ rustup target add wasm32-unknown-unknown
 
 # Install wasm-bindgen
 # cargo install wasm-bindgen-cli
-curl -sLO https://github.com/rustwasm/wasm-bindgen/releases/download/0.2.92/wasm-bindgen-0.2.92-x86_64-unknown-linux-musl.tar.gz | 
+curl -sLO https://github.com/rustwasm/wasm-bindgen/releases/download/0.2.92/wasm-bindgen-0.2.92-x86_64-unknown-linux-musl.tar.gz
 tar -xvf wasm-bindgen-0.2.92-x86_64-unknown-linux-musl.tar.gz
 mv wasm-bindgen-0.2.92-x86_64-unknown-linux-musl/wasm-bindgen /vercel/.cargo/bin/
 
