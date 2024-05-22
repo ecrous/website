@@ -6,6 +6,7 @@ chmod +x tailwindcss-linux-x64
 mv tailwindcss-linux-x64 tailwindcss
 
 # Install Rust toolchain
+HOME=/vercel
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 PATH=$PATH:/vercel/.cargo/bin
 
