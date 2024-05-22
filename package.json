@@ -13,5 +13,6 @@
     "license": "CC0-1.0",
     "devDependencies": {
       "tailwindcss": "^3.4.3"
-    }
+    },
+    "packageManager": "pnpm@8.15.5"
   }
